@@ -40,3 +40,21 @@ a {
     color-scheme: dark;
   }
 }
+
+.gg{
+  width: 70%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.ggg{
+  width: 70%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  margin-top: 20px;
+}
