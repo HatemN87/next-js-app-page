@@ -5,7 +5,7 @@ async function PostDetailsPage({params}) {
     let postId=params.postId
 let loadinJSX=(
     <div>
-        <h1>Loading...</h1>
+        <h1>wait...</h1>
     </div>
 )
   return (
