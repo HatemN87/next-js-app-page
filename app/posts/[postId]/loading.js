@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Loading() {
+function LoadingPostDetails() {
   return (
-    <div>
-        <h1>Loading</h1>
-    </div>
+    <div >loading...</div>
   )
 }
 
-export default Loading
+export default LoadingPostDetails

@@ -1,6 +1,10 @@
 import React from 'react'
-
+export let metadata={
+  title:'Show Articles Page',
+}
 function layout({children}) {
+  
+
   return (
     <div>
         <h1>Articles</h1>

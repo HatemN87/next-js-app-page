@@ -1,15 +1,16 @@
 import React from 'react'
 
-async function PostDetails({postId}) {
 
+async function PostDetails({postId}) {
+   
     await new Promise((res)=>{
         setTimeout(()=>{
         res()
 
-        },1000)
-
+        },2000)
     })
 
+ 
 
     let res = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}` ,{
         //ssr
@@ -27,7 +28,7 @@ return(
         <div className="ggg">
             <h1>{dataPost.title}</h1>
             <hr />
-            <p>{dataPost.title}</p>
+            <p>{dataPost.body}</p>
         </div>
     </div>
 )

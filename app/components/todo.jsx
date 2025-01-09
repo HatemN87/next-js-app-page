@@ -9,15 +9,15 @@ function Todo() {
   let [todo, setTodo] = useState({});
 
   async function fetchData() {
-    let res = await fetch("https://jsonplaceholder.typicode.com/posts/4"//by default ssg
+    let res = await fetch("https://jsonplaceholder.typicode.com/posts/4"//by default ssg   ststic side generation
         ,{
-        //ssr
+        //ssr server side rendering
 
-        //cache:'no-store' 
+        // cache:'no-store' 
 
-        //isr
+        //isg  incremental static regeneration
         next:{
-            revalidate:50
+          revalidate:60
         }
     });
     let data = await res.json();

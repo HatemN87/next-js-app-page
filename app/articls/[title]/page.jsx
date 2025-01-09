@@ -1,7 +1,5 @@
 import React from 'react'
-export let metadata={
-    title:'ShowArticlesPage',
-  }
+
   
 function ShowArticlesPage(prop) {
     console.log(prop);
